@@ -12,21 +12,19 @@ package org.example;
 //    }
 //
 //}
-//import java.util.*;
-//
-//public class LinkedListExample {
-//    public static void main(String[] args) {
-//
-//        LinkedList<String> list = new LinkedList();
-//        list.add("A");
-//        list.add("B");
-//
-//        Iterator<String> it = list.iterator();
-//
-//        while (it.hasNext()) {
-//            System.out.println(it.next());
-//        }
-//    }
-//}
+import java.util.*;
 
+public class LinkedListExample {
+    public static void main(String[] args) {
 
+        LinkedList<String> list = new LinkedList();
+        list.add("A");
+        list.add("B");
+
+        Iterator<String> it = list.iterator();
+
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+    }
+}
