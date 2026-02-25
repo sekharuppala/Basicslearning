@@ -1,20 +1,21 @@
-//package org.example;
+package org.example;
 //
-//import java.util.*;
+
+import java.util.*;
 //
-////import java.util.*;
-////public class ArrayListExample{
-////    public static void main(String ... args){
-////        ArrayList<String> list=new ArrayList<String>();
-////        list.add("Mango");
-////        list.add("Apple");
-////        list.add("Banana");
-////        list.add("Grapes");
-////        list.get(2);
-////        System.out.println(list);
-////        System.out.println(list);
-////    }
-////}
+/// /import java.util.*;
+/// /public class ArrayListExample{
+/// /    public static void main(String ... args){
+/// /        ArrayList<String> list=new ArrayList<String>();
+/// /        list.add("Mango");
+/// /        list.add("Apple");
+/// /        list.add("Banana");
+/// /        list.add("Grapes");
+/// /        list.get(2);
+/// /        System.out.println(list);
+/// /        System.out.println(list);
+/// /    }
+/// /}
 //
 ////import java.util.*;
 ////public class ArrayListExample {
@@ -220,6 +221,9 @@
 ////}
 ////
 //
+
+//import java.util.ArrayList;
+
 ////public class ArrayListExample {
 ////    public static void main(String[] args) {
 ////
@@ -253,7 +257,37 @@
 ////    }
 ////}
 
+//public class ArrayListExample {
+//    public static void main(String[] args) {
+//        ArrayList<Double> d = new ArrayList<>();
+//        d.add(23.2);
+//        d.add(0, 24.43);
+//        d.add(d.size(), 12.32);
+//        System.out.println(d);
+//        System.out.println(d.get(1));
+//        System.out.println(d.remove(23.2));
+//
+//    }
+//
+//}
 
+//
+//public class ArrayListExample {
+//    public static void main(String[] args) {
+//        A a =new A();
+//        a.add(11,12);
+//
+//    }
+//
+//}
+//
+//class A {
+//    public int add ( int a, int b){
+//        int sum = a + b; // Method body
+//        return sum; // Return statement
+//    }
+//
+//}
 
 
 

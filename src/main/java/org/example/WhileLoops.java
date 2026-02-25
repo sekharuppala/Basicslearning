@@ -333,6 +333,35 @@ import java.util.Scanner;
 //}
 
 
+//import java.io.BufferedReader;
+//import java.io.FileReader;
+//import java.io.IOException;
+//import java.util.ArrayList;
+//import java.util.Collections;
+//import java.util.List;
+//
+//public class FileReaderExample {
+//    public static void main(String[] args) throws IOException {
+//
+//        BufferedReader br = new BufferedReader(
+//                new FileReader("/home/somasekhar/Desktop/Myfile/Textfile.txt"));
+//
+//        List<String> names = new ArrayList<>();
+//        String line;
+//
+//
+//        while ((line = br.readLine()) != null) {
+//            names.add(line);
+//        }
+//
+//        br.close();
+//
+//        Collections.sort(names);
+//
+//        for (String name : names) {
+//            System.out.println(name);
+//        }
+//    }
 
 
 
