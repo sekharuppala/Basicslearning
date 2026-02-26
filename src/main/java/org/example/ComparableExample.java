@@ -190,8 +190,8 @@ public class ComparableExample {
 //        return ee.age-this.age;
 //
 //
-//        return this.name.compareTo(ee.name);//String using Descending Order(Big-small)//
-//        retrun ee.name.compareTo(this.name); //String using Ascending Order(Small-Big)//
+//        return this.name.compareTo(ee.name);//String using Ascending Order(Big-small)//
+//        retrun ee.name.compareTo(this.name); //String using Descending Order(Small-Big)//
 //        return this.age - ee.age;// Integer using Ascending Order(Small - Big)//
 //        return ee.age - this.age;// Integer usin Descending Order(Big - Small)//
 //    }
