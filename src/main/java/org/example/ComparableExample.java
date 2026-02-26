@@ -166,7 +166,7 @@ public class ComparableExample {
 //    }
 //}
 
-//
+
 //class Employee implements Comparable<Employee> {
 //    String name;
 //    String bloodgroup;
@@ -189,12 +189,16 @@ public class ComparableExample {
 //        return this.age - ee.age;
 //        return ee.age-this.age;
 //
-//
+////
 //        return this.name.compareTo(ee.name);//String using Ascending Order(Big-small)//
 //        retrun ee.name.compareTo(this.name); //String using Descending Order(Small-Big)//
 //        return this.age - ee.age;// Integer using Ascending Order(Small - Big)//
 //        return ee.age - this.age;// Integer usin Descending Order(Big - Small)//
+//
+//
+//
 //    }
+//
 //
 //}
 //
@@ -220,7 +224,6 @@ public class ComparableExample {
 //
 //    }
 //}
-
 
 
 
