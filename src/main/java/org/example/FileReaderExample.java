@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 import java.io.BufferedReader;
-import java.util.Collections;
+//import java.util.Collections;
 
 //public class FileReaderExample {
 //        public static void main(String[] args) throws IOException {
@@ -71,6 +71,36 @@ import java.util.Collections;
 //        }
 //        br.close();
 //
+//    }
+//}
+
+//class FileReaderExample {
+//    public static void main(String[] args) throws IOException {
+//        FileReader fr=new FileReader("/home/somasekhar/Desktop/Myfile/Textfile.txt");
+////        fr.read();
+//
+//        int charcode=fr.read();
+//        System.out.print((char)charcode);
+//        while((charcode=fr.read())!=-1){
+//            System.out.print((char)charcode);
+//        }
+//        fr.close();
+//    }
+//
+//}
+
+//public class FileReaderExample {
+//    public static void main(String[] args) throws IOException {
+//        FileReader fr=new FileReader("/home/somasekhar/Desktop/Myfile/SampleText File.txt");
+//        fr.read();
+//        int c =fr.read();
+//        System.out.print((char) c);
+//        while((c=fr.read())!=-1){
+//            System.out.print
+//                    ((char)c);
+//        }
+//
+//        fr.close();
 //    }
 //}
 

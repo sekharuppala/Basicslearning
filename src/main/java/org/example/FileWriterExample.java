@@ -35,7 +35,7 @@ public class FileWriterExample {
 //        fw.write("raj\n");
 //        fw.append("Sekhar\n");
 //        fw.write("Nag\n");
-//        fw.append("raj");
+//        fw.append("raj\n");
 //        fw.write("andhra king");
 //
 //

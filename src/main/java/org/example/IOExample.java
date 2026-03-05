@@ -45,13 +45,10 @@
 //    }
 //}
 //
-//public class IOExample {
-//    public static void main(String[] args) throws IOException{
-//        FileReader fr=new FileReader("/home/somasekhar/Desktop/Myfile/Textfile.txt");
-//        int
-//
-//    }
-//}
+
+
+
+
 
 
 
