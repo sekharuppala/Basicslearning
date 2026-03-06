@@ -40,19 +40,20 @@ package org.example;
 //}  MethodOverloading error occured
 
 //
+//
 //class A {
 //    void print() {
 //        System.out.println("Control");
 //    };
-//    @Override
-//    void print(){
+//
+//    void print(int a){
 //        System.out.println("MethodOverloading");
 //    };
 //}
-//public class MethodOverloading {
+//public class MethodOverloadingExample {
 //    public static void main(String[] args) {
 //        A a =new A();
-//        a.print();
+//        a.print(5);
 //    }
 //}
 
