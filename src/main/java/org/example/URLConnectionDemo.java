@@ -1,6 +1,9 @@
 package org.example;
+
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Scanner;
@@ -25,7 +28,8 @@ import java.util.Scanner;
 //class URLConnectonDemo {
 //    public static void main(String[] args) {
 //
-////        int age = 15;
+
+/// /        int age = 15;
 //
 //        Scanner sc=new Scanner(System.in);
 //        System.out.print("Enter age:");
@@ -41,6 +45,59 @@ import java.util.Scanner;
 //        System.out.println("Eligible for voting");
 //    }
 //}
+
+
+//public class URLConnectionDemo {
+//    public static void main(String[] args) {
+//        try {
+//
+//            URL url = new URL("http://amazon.in");
+//            URLConnection con = url.openConnection();
+//
+//            BufferedReader br = new BufferedReader(
+//                    new InputStreamReader(con.getInputStream()));
+//
+//            String line;
+//
+//            while ((line = br.readLine()) != null) {
+//                System.out.println(line);
+//            }
+//
+//            br.close();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+//}
+
+//class URLConnectionDemo{
+//    public static void main(String[] args) {
+//        try{
+//            URL url=new URL("https://agsos.in");
+//            URLConnection urlConnection=url.openConnection();
+//            InputStream is=urlConnection.getInputStream();
+//            int i;
+//            while((i=is.read())!=-1){
+//                System.out.print((char)i);
+//
+//
+//            }
+//
+//
+//
+//        }
+//            catch (Exception e){
+//            System.out.println(e);
+//        }
+//    }
+//}
+
+
+
+
+
+
+
 
 
 

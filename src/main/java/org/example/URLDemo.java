@@ -32,7 +32,7 @@ import java.sql.SQLOutput;
 //    public static void main(String[] args) {
 //
 //        try{
-//            URL url=new URL("https://agsos.in");
+//            URL url=new URL("https://agesos.in");
 //            URL url=new URL("http://localhost:6543");
 //            URL url=new URL("https://www.google.com/search?q=javatpoint&oq=javatpoint&sourceid=chrome&ie=UTF-8\");");
 //            System.out.println("Protocal:"+url.getProtocol());
