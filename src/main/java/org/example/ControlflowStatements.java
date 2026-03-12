@@ -278,6 +278,8 @@ package org.example;
 //}
 
 
+import java.util.Scanner;
+
 /// /        int a = 1;
 /// /        int b = 1;
 /// /        int c = 1;
@@ -298,10 +300,10 @@ package org.example;
 //    }
 //}
 
-//
+
 //public class ControlflowStatements {
 //    public static void main(String... args) {
-//        int day = 5;
+//        int day = 107;
 //
 //        switch (day) {
 //            case 0: {
@@ -497,6 +499,49 @@ package org.example;
 
 
 
+//public class RegularExpressions {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter UserName:");
+//        String username = sc.nextLine();
+//
+//        switch (username) {
+//            case ("absABC"):
+//                if (username.equals("absABC")) {
+//                    System.out.println("Valid Credentials");
+//                } else if (!username.equals("!@#!#1223") || !username.equals("ajhsh!@@123")) {
+//                    System.out.println("InvalidCredentials");
+//
+//                } else if ((username.equals("ABCD") || username.equals("abc@!#"))) {
+//                    System.out.println("Check The Credentials");
+//                }
+//            case ("123ajj"):
+//                if (username.equals("absABC")) {
+//                    System.out.println("Valid Credentials");
+//                } else if (!username.equals("!@#!#1223") || !username.equals("ajhsh!@@123")) {
+//                    System.out.println("InvalidCredentials");
+//
+//                } else if ((username.equals("ABCD") || username.equals("abc@!#"))) {
+//                    System.out.println("Check The Credentials");
+//                }
+//
+//            case("ahja!@#123"):
+//                if (username.equals("absABC")) {
+//                    System.out.println("Valid Credentials");
+//                } else if (!username.equals("!@#!#1223") || !username.equals("ajhsh!@@123")) {
+//                    System.out.println("InvalidCredentials");
+//
+//                } else if ((username.equals("ABCD") || username.equals("abc@!#"))) {
+//                    System.out.println("Check The Credentials");
+//                }
+//
+//
+//
+//        }
+//    }
+//
+//
+//}
 
 
 
