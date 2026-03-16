@@ -1,4 +1,4 @@
-package org.example;
-
-public class JavaErrorExample {
-}
+//package org.example;
+//
+//public class JavaErrorExample {
+//}

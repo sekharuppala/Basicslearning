@@ -1,4 +1,4 @@
-package org.example;
-
-public class Instanceof {
-}
+//package org.example;
+//
+//public class Instanceof {
+//}

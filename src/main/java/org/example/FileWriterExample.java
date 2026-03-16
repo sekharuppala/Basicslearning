@@ -1,4 +1,4 @@
-package org.example;
+//package org.example;
 import java.io.*;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -13,8 +13,8 @@ import java.io.IOException;
 //    }
 //}
 
-public class FileWriterExample {
-    public static void main(String[] args)throws Exception {
+//public class FileWriterExample {
+//    public static void main(String[] args)throws Exception {
 //        FileOutputStream fe=new FileOutputStream("/home/somasekhar/Desktop/Myfile/Textfile.txt");
 //        String content ="Student exam answers";
 //        fe.write(content.getBytes());
@@ -42,5 +42,5 @@ public class FileWriterExample {
 //        fw.close();
 //        System.out.println("Successfully Completed");
 
-    }
-}
+//    }
+//}
