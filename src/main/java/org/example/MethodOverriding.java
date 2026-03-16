@@ -1,4 +1,4 @@
-package org.example;
-
-public class MethodOverriding {
-}
+//package org.example;
+//
+//public class MethodOverriding {
+//}

@@ -1,4 +1,4 @@
-package org.example;
-
-public class EnumMap {
-}
+//package org.example;
+//
+//public class EnumMap {
+//}
