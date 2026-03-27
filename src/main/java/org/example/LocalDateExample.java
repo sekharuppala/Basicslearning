@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Month;
+import java.time.format.DateTimeFormatter;
 
 
 //public class LocalDateExample {
@@ -96,15 +97,134 @@ import java.time.Month;
 //
 // } Demonstrate methods of LocalDate class such as now(), minusDays(), plusDays().
 //}
+//
+//public class LocalDateExample {
+//    public static void main(String[] args) {
+//        LocalDate localDate=LocalDate.of(2026,03,24);
+//        System.out.println(localDate.isLeapYear());
+//        LocalDate localDate1=LocalDate.of(2024,1,1);
+//        System.out.println(localDate1.isLeapYear());
+//
+//    }
+//}
 
-public class LocalDateExample {
-    public static void main(String[] args) {
-        LocalDate localDate=LocalDate.of(2026,03,24);
-        System.out.println(localDate.isLeapYear());
-        LocalDate localDate1=LocalDate.of(2024,1,1);
-        System.out.println(localDate1.isLeapYear());
-    }
-}
+//public class LocalDateExample {
+//    public static void main(String[] args){
+//        // Example 1
+//        LocalDate d1 = LocalDate.now();
+//        String d1Str = d1.format(DateTimeFormatter.ISO_DATE);///format() method it changes date convert into String///
+//        System.out.println("Date1 in string :  " + d1Str);
+//        // Example 2
+//        LocalDate d2 = LocalDate.of(2002, 05, 01);
+//        String d2Str = d2.format(DateTimeFormatter.ISO_DATE);
+//        System.out.println("Date2 in string :  " + d2Str);
+//        // Example 3
+//        LocalDate d3 = LocalDate.of(2016, 11, 01);
+//        String d3Str = d3.format(DateTimeFormatter.ISO_DATE);
+//        System.out.println("Date3 in string :  " + d3Str);
+//    }
+//}
+
+
+//public class LocalDateExample {
+//    public static void main(String[] args) {
+//
+//        String d1="2026-03-25";
+//        LocalDate localDate=LocalDate.parse(d1);
+//        System.out.println(d1);
+//
+//        LocalDate localDate1=LocalDate.parse("2026-03-24");
+//        System.out.println(localDate1);
+//
+//
+//    }////Using Parse() Method demonstrate LocalDate/////
+//}
+
+
+
+/// ////////////////// Comparing Dates/////////////////
+
+//public class LocalDateExample {
+//    public static void main(String[] args) {
+//        LocalDate todayDate=LocalDate.now();
+//        LocalDate manualdate=LocalDate.of(2026,3,26);
+//        System.out.println(todayDate.isBefore(manualdate));
+//        System.out.println(todayDate.isAfter(manualdate));
+//        System.out.println(todayDate.equals(manualdate));
+//
+//
+//    }/////Compare Dates///
+//}
+//
+//public class LocalDateExample {
+//    public static void main(String[] args) {
+//        LocalDate today =LocalDate.now();
+//        LocalDate yestarday=today.minusDays(1);
+//        LocalDate tommorow=today.plusDays(1);
+//        LocalDate week=today.plusWeeks(1);
+//        LocalDate month=today.plusMonths(1);
+//        System.out.println(today);
+//        System.out.println(("------"));
+//        System.out.println(yestarday);
+//        System.out.println("-------");
+//        System.out.println(tommorow);
+//        System.out.println("------");
+//        System.out.println(week);
+//        System.out.println("-----");
+//        System.out.println(month);
+//        System.out.println("------zz");
+//    }//////Using now() method ADD/Sub Dates////
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
