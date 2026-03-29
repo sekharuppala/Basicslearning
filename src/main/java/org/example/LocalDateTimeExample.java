@@ -1,8 +1,7 @@
 package org.example;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 //public class LocalDateTimeExample {
 //    public static void main(String[] args) {
@@ -49,6 +48,53 @@ import java.time.LocalTime;
 //    } //// LocalDatetime using OF method //////
 //}
 
+
+public class LocalDateTimeExample {
+    public static void main(String[] args) {
+//        LocalDateTime localDateTime=LocalDateTime.of(2026, Month.MARCH,25,10,30);
+//        System.out.println(localDateTime.plusDays(5));////Specific date time Example////
+
+//        LocalDateTime localDateTime = LocalDateTime.of(2024, Month.MARCH, 25, 7, 10);
+//        System.out.println("original date&time:" + localDateTime);
+
+
+        /// /Set specific fields/////
+
+//        LocalDateTime localDateTime1 = localDateTime
+//                .withYear(2026)
+//                .withMonth(03)
+//                .withHour(7)
+//                .withMinute(30);
+//        System.out.println(localDateTime1);
+
+
+            /// ///FormattinglocalDatetime Examples////////
+
+//        LocalDateTime localDateTime=LocalDateTime.now();
+//        System.out.println("OriginalDate&time: "+localDateTime);
+//
+//        DateTimeFormatter dateTimeFormatter=DateTimeFormatter.ofPattern("dd-mm-yyyy HH:mm:ss");
+//        String formattedDateTime=localDateTime.format(dateTimeFormatter);
+//        System.out.println(formattedDateTime);
+//        System.out.println("----------");
+
+
+
+
+         ////formating localdate example////
+        LocalDate localDate=LocalDate.now();
+        System.out.println(localDate);
+        DateTimeFormatter dateTimeFormatter1=DateTimeFormatter.ofPattern("E,dd-MM-yyyy");
+        String formattedDate = localDate.format(dateTimeFormatter1);
+        System.out.println(formattedDate);
+
+
+//        LocalDate localDate=LocalDate.now();
+
+
+
+    }
+}
 
 
 
