@@ -172,6 +172,17 @@ public class LocalDateTimeExample {
                 trip1.isTodayTrip();
                 trip1.isFutureTrip();
                 trip1.daysLeft();
+
+
+        LocalDateTime now = LocalDateTime.now();
+
+        System.out.println("Year: " + now.getYear());
+        System.out.println("Month: " + now.getMonthValue());
+        System.out.println("Day: " + now.getDayOfMonth());
+        System.out.println("Hour: " + now.getHour());
+        System.out.println("Minute: " + now.getMinute());
+        System.out.println("Second: " + now.getSecond());
+
             }
         }
 
