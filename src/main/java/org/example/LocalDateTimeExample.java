@@ -96,94 +96,114 @@ public class LocalDateTimeExample {
 //import java.time.LocalDateTime;
 //import java.time.Duration;
 //import java.time.Period;
+//
+//        class Trip {
+//            String driverName;
+//            LocalDate tripDate;
+//            LocalTime startTime;
+//            LocalTime endTime;
+//            LocalDateTime bookingDateTime;
+//
+//            // Constructor
+//            Trip(String driverName, LocalDate tripDate, LocalTime startTime, LocalTime endTime) {
+//                this.driverName = driverName;
+//                this.tripDate = tripDate;
+//                this.startTime = startTime;
+//                this.endTime = endTime;
+//                this.bookingDateTime = LocalDateTime.now();
+//            }
+//
+//            // Calculate trip duration
+//            void calculateDuration() {
+//                Duration duration = Duration.between(startTime, endTime);
+//                System.out.println("Trip Duration: " + duration.toHours() + " hours "
+//                        + (duration.toMinutes() % 60) + " minutes");
+//            }
+//
+//            // Check if trip is today
+//            void isTodayTrip() {
+//                if (tripDate.equals(LocalDate.now())) {
+//                    System.out.println("Trip is scheduled for TODAY");
+//                } else {
+//                    System.out.println("Trip is NOT today");
+//                }
+//            }
+//
+//            // Check if trip is in future
+//            void isFutureTrip() {
+//                if (tripDate.isAfter(LocalDate.now())) {
+//                    System.out.println("Trip is in FUTURE");
+//                } else {
+//                    System.out.println("Trip is NOT in future");
+//                }
+//            }
+//
+//            // Days remaining for trip
+//            void daysLeft() {
+//                Period period = Period.between(LocalDate.now(), tripDate);
+//                System.out.println("Days left for trip: " + period.getDays());
+//            }
+//
+//            // Display full details
+//            void displayTrip() {
+//                System.out.println("\n===== Trip Details =====");
+//                System.out.println("Driver: " + driverName);
+//                System.out.println("Trip Date: " + tripDate);
+//                System.out.println("Start Time: " + startTime);
+//                System.out.println("End Time: " + endTime);
+//                System.out.println("Booking Time: " + bookingDateTime);
+//            }
+//        }
+//
+//
+//                // Create Trip Object
+//                Trip trip1 = new Trip(
+//                        "Ravi",
+//                        LocalDate.of(2026, 4, 2),
+//                        LocalTime.of(9, 30),
+//                        LocalTime.of(14, 45)
+//                );
+//
+//                // Display details
+//                trip1.displayTrip();
+//
+//                // Perform operations
+//                trip1.calculateDuration();
+//                trip1.isTodayTrip();
+//                trip1.isFutureTrip();
+//                trip1.daysLeft();
+//
+//
+//        LocalDateTime now = LocalDateTime.now();
+//
+//        System.out.println("Year: " + now.getYear());
+//        System.out.println("Month: " + now.getMonthValue());
+//        System.out.println("Day: " + now.getDayOfMonth());
+//        System.out.println("Hour: " + now.getHour());
+//        System.out.println("Minute: " + now.getMinute());
+//        System.out.println("Second: " + now.getSecond());
+//
+//
+//
+//        LocalDate date = LocalDate.now();
+//        LocalTime time = LocalTime.now();
+//        LocalDateTime dateTime = LocalDateTime.now();
+//
+//        System.out.println("Date: " + date);
+//        System.out.println("Time: " + time);
+//        System.out.println("Date & Time: " + dateTime);
 
-        class Trip {
-            String driverName;
-            LocalDate tripDate;
-            LocalTime startTime;
-            LocalTime endTime;
-            LocalDateTime bookingDateTime;
-
-            // Constructor
-            Trip(String driverName, LocalDate tripDate, LocalTime startTime, LocalTime endTime) {
-                this.driverName = driverName;
-                this.tripDate = tripDate;
-                this.startTime = startTime;
-                this.endTime = endTime;
-                this.bookingDateTime = LocalDateTime.now();
-            }
-
-            // Calculate trip duration
-            void calculateDuration() {
-                Duration duration = Duration.between(startTime, endTime);
-                System.out.println("Trip Duration: " + duration.toHours() + " hours "
-                        + (duration.toMinutes() % 60) + " minutes");
-            }
-
-            // Check if trip is today
-            void isTodayTrip() {
-                if (tripDate.equals(LocalDate.now())) {
-                    System.out.println("Trip is scheduled for TODAY");
-                } else {
-                    System.out.println("Trip is NOT today");
-                }
-            }
-
-            // Check if trip is in future
-            void isFutureTrip() {
-                if (tripDate.isAfter(LocalDate.now())) {
-                    System.out.println("Trip is in FUTURE");
-                } else {
-                    System.out.println("Trip is NOT in future");
-                }
-            }
-
-            // Days remaining for trip
-            void daysLeft() {
-                Period period = Period.between(LocalDate.now(), tripDate);
-                System.out.println("Days left for trip: " + period.getDays());
-            }
-
-            // Display full details
-            void displayTrip() {
-                System.out.println("\n===== Trip Details =====");
-                System.out.println("Driver: " + driverName);
-                System.out.println("Trip Date: " + tripDate);
-                System.out.println("Start Time: " + startTime);
-                System.out.println("End Time: " + endTime);
-                System.out.println("Booking Time: " + bookingDateTime);
-            }
-        }
 
 
-                // Create Trip Object
-                Trip trip1 = new Trip(
-                        "Ravi",
-                        LocalDate.of(2026, 4, 2),
-                        LocalTime.of(9, 30),
-                        LocalTime.of(14, 45)
-                );
+        String dateStr = "06-04-2026";
 
-                // Display details
-                trip1.displayTrip();
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
-                // Perform operations
-                trip1.calculateDuration();
-                trip1.isTodayTrip();
-                trip1.isFutureTrip();
-                trip1.daysLeft();
+        LocalDate date = LocalDate.parse(dateStr, format);
 
+        System.out.println("Parsed Date: " + date);
 
-        LocalDateTime now = LocalDateTime.now();
-
-        System.out.println("Year: " + now.getYear());
-        System.out.println("Month: " + now.getMonthValue());
-        System.out.println("Day: " + now.getDayOfMonth());
-        System.out.println("Hour: " + now.getHour());
-        System.out.println("Minute: " + now.getMinute());
-        System.out.println("Second: " + now.getSecond());
-
-            }
+    }
         }
 
 
